@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Brian Alexander"]
   s.email       = ["balexand@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/balexand/openid_dalli_store"
   s.summary     = %q{Monkey patch that allows Dalli to be used as an OpenID store}
   s.description = %q{Monkey patch that allows the Dalli memcache client to be used as an OpenID store}
 
