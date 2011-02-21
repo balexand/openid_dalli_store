@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "openid_dalli_store"
   s.version     = OpenidDalliStore::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Brian Alexander"]
+  s.email       = ["balexand@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Monkey patch that allows Dalli to be used as an OpenID store}
+  s.description = %q{Monkey patch that allows the Dalli memcache client to be used as an OpenID store}
 
   s.rubyforge_project = "openid_dalli_store"
 

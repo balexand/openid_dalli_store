@@ -1,0 +1,11 @@
+Monkey patch that allows the Dalli memcache client to be used as an OpenID store. This gem will be obsolete once {this pull request is merged}[https://github.com/openid/ruby-openid/pull/9].
+
+= Usage
+
+Add the gem to your Gemfile:
+
+  gem "openid_dalli_store"
+
+Create the store:
+
+  OpenID::Store::Memcache.new(Dalli::Client.new)
