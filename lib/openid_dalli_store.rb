@@ -1,0 +1,3 @@
+module OpenidDalliStore
+  # Your code goes here...
+end
